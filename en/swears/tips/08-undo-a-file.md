@@ -7,7 +7,7 @@ order: 8
 
 ```git
 # find a hash for a commit before the file was changed
-git log
+git log -- path/to/file
 # use the arrow keys to scroll up and down in history
 # once you've found your commit, save the hash
 git checkout [saved hash] -- path/to/file
